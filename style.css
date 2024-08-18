@@ -93,17 +93,86 @@ body {
     grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     text-align: center;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 150px 0px 150px ;
 }
 .deli-section {
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
-.deli{
+#deli-section-title {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0px 0px 50px 0px ;
+    text-align: center;
+}
+
+.deli.box-1{
     width: 200px;
 	height: 280px;
 	border-radius: 12px;
-	background: linear-gradient(170deg, #383838, #1f1f1f);
+	background-image: url(images/sinigang.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+	cursor: pointer;
+	transition: all 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.deli.box-2{
+    width: 200px;
+	height: 280px;
+	border-radius: 12px;
+	background-image: url(images/lasagna.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+	cursor: pointer;
+	transition: all 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.deli.box-3{
+    width: 200px;
+	height: 280px;
+	border-radius: 12px;
+	background-image: url(images/friedchicken.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+	cursor: pointer;
+	transition: all 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.deli.box-4{
+    width: 200px;
+	height: 280px;
+	border-radius: 12px;
+	background-image: url(images/chickenadobo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 	position: relative;
 	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
 	cursor: pointer;
@@ -120,9 +189,9 @@ body {
 }
 
 .deli > h1 {
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	word-break: break-word;
-}
-.deli > p {
-	font-size: 1.2rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
